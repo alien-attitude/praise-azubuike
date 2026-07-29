@@ -131,7 +131,7 @@ export function ProjectModal({ project, open, onOpenChange }: ProjectModalProps)
                   href={project.notionUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="ml-4 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary/90">
+                  className="mt-4 sm:mt-0 sm:ml-6  inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary/90">
 
                 View Notion Project <ExternalLinkIcon size={15} />
               </a>
