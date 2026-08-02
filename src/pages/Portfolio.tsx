@@ -5,6 +5,7 @@ import { EducationCards } from "../components/EducationCards";
 import { Projects } from "../components/Projects";
 import { ToolSection } from "../components/ToolSection";
 import { Testimonials } from "../components/Testimonials";
+import { Certifications } from "../components/Certifications.tsx";
 import { FAQAccordion } from "../components/FAQAccordion";
 import { Section } from "../components/ui/Section";
 import { Footer } from "../components/Footer";
@@ -13,15 +14,16 @@ import { portfolioData } from "../data/portfolio";
 
 export function Portfolio() {
   const {
-    profile,
-    experience,
-    education,
-    projects,
-    tools,
-    testimonials,
-    faqs,
-    navigation,
-    gains
+      profile,
+      experience,
+      education,
+      projects,
+      tools,
+      certifications,
+      testimonials,
+      faqs,
+      navigation,
+      gains
   } = portfolioData;
 
   return (
@@ -30,6 +32,7 @@ export function Portfolio() {
       <ExperienceTimeline experience={experience} />
       <EducationCards education={education} />
       <Projects projects={projects} />
+        <Certifications certifications={certifications} />
       <ToolSection tools={tools} />
       <Testimonials testimonials={testimonials} />
 

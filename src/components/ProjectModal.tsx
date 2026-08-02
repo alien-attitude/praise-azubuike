@@ -140,6 +140,6 @@ export function ProjectModal({ project, open, onOpenChange }: ProjectModalProps)
 
 
       </div>
-    </Dialog>);
-
+    </Dialog>
+  );
 }

@@ -24,6 +24,9 @@ export function PortfolioLayout({
   const activeLabel =
   navItems.find((n) => n.id === activeId)?.label ?? navItems[0]?.label;
 
+  const displayName = profile.name.split(" ")[0].toUpperCase();
+  const displaySection = activeLabel?.replace(/s$/i, "").toUpperCase()
+
   return (
     <div className="min-h-full w-full bg-background text-text-primary">
       {/* Mobile top bar */}
@@ -48,15 +51,32 @@ export function PortfolioLayout({
         </div>
       </header>
 
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 px-5 py-8 sm:px-8 lg:grid-cols-[300px_1fr] lg:gap-16 lg:py-16">
-        {/* Sticky sidebar (desktop) / top section (mobile) */}
-        <aside className="lg:sticky lg:top-16 lg:h-fit lg:self-start">
+      <div className="fixed left-0 right-0 top-6 z-40 hidden pointer-events-none lg:block">
+        <div className="grid max-w-6xl grid-cols-[280px_1fr] gap-10 px-5 sm:px-8 lg:ml-8 lg:mr-auto xl:ml-12">
+          <div className="pointer-events-auto rounded-3xl border border-border bg-white/90 p-5 shadow-soft backdrop-blur-md">
+            <div className="flex items-center gap-3">
+              <SparkleIcon size={18} className="text-primary" fill="currentColor" />
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-text-primary">
+                {displayName}
+                <span className="mx-2 text-text-secondary">/</span>
+                <span className="text-primary">{displaySection}</span>
+              </p>
+            </div>
+          </div>
+
+          <div />
+        </div>
+      </div>
+
+      <div className="grid max-w-6xl grid-cols-1 gap-10 px-5 py-8 sm:px-8 lg:ml-8 lg:mr-auto lg:grid-cols-[280px_1fr] lg:gap-10 lg:py-16 lg:pt-32 xl:ml-12">
+        {/* Sticky sidebar desktop / profile section mobile */}
+        <aside className="lg:sticky lg:top-32 lg:h-fit lg:self-start">
           <Sidebar
-            profile={profile}
-            navItems={navItems}
-            activeId={activeId}
-            onNavigate={scrollTo} />
-          
+              profile={profile}
+              navItems={navItems}
+              activeId={activeId}
+              onNavigate={scrollTo} />
+
         </aside>
 
         {/* Right content column */}

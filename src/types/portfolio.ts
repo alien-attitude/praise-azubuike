@@ -62,6 +62,14 @@ export interface ToolCategory {
   tools: string[];
 }
 
+export interface Certifications {
+  id: string;
+  name: string;
+  issuer: string;
+  date: string;
+  images: string
+}
+
 export interface Testimonial {
   id: string;
   quote: string;
@@ -87,6 +95,7 @@ export interface PortfolioData {
   education: Education[];
   projects: Project[];
   tools: ToolCategory[];
+  certifications: Certifications[];
   testimonials: Testimonial[];
   faqs: FAQ[];
   navigation: NavItem[];

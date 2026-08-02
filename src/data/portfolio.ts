@@ -12,14 +12,15 @@ export const portfolioData: PortfolioData = {
   profile: {
     name: "Praise Ozioma Azubuike",
     title: "Result-driven Virtual Assistant",
-    tagline: "Your right-hand lady behind the scenes",
+    tagline: "A professional portfolio showing real work, systems, and projects supported." ,
     intro:
-    "I'm that virtual assistant who loves bringing order to the chaos. Whether it's documentation, research, task tracking, admin, or customer support, I help teams and businesses stay organized, work smarter, and move forward with the right systems, consistent follow-ups, and a process for everything.",
+    "",
     summary:
-    "Think of me as your right-hand lady that works behind the scenes making sure everything runs in order. I specialize in documentation, research, task tracking, administrative, and customer support, bringing structure, consistency, and proactive follow-through to every team I work with.",
+    "Think of me as your right-hand lady that works behind the scenes making sure everything runs in order. I specialize in documentation, research, task tracking, administrative, " +
+        "and customer support, bringing structure, consistency, and proactive follow-through to every team I work with.",
     profileImage: "/praise/photo.jpeg",
     contact: {
-      email: "praiseazubuike03@gmail.com",
+      email: "thepraiseazubuike@gmail.com ",
       location: "West Africa Time Zone",
       availability: "Available to work across all time zones"
     },
@@ -40,7 +41,8 @@ export const portfolioData: PortfolioData = {
     "Travel Planning & Presentation",
     "Workspace Organization (Drive, Notion, Folders)",
     "Onboarding Documentation & SOP Writing",
-    "Light Design (Canva)"]
+    "Light Design (Canva)",
+    "Email Marketing"]
 
   },
 
@@ -94,7 +96,8 @@ export const portfolioData: PortfolioData = {
     shortDescription:
     "Targeted research into emerging German tech, delivering verified insights on high-value companies.",
     description:
-    "Led targeted research into emerging German tech and adjacent industries, delivering verified insights on promising companies for business growth. Applied analytical research methods and decision-mapping strategies to identify organisations with high strategic value and expansion potential.",
+    "Led targeted research into emerging German tech and adjacent industries, delivering verified insights on promising companies for business growth. Applied analytical " +
+        "research methods and decision-mapping strategies to identify organisations with high strategic value and expansion potential.",
     categories: [
     "Web Research",
     "Data Accuracy",
@@ -119,7 +122,8 @@ export const portfolioData: PortfolioData = {
     shortDescription:
     "Investor-ready pitch deck and communication strategy for a school management platform.",
     description:
-    "SchoolBase is a school management app that helps administrators and teachers handle attendance, student records, timetables, assignments, and fee tracking in one platform. Created an investor-ready pitch deck, built a communication strategy, and carried out detailed product and competitor analysis.",
+    "SchoolBase is a school management app that helps administrators and teachers handle attendance, student records, timetables, assignments, and fee tracking in one platform. " +
+        "Created an investor-ready pitch deck, built a communication strategy, and carried out detailed product and competitor analysis.",
     categories: ["Pitch Deck", "Product Analysis", "Communication Strategy"],
     tags: ["Presentation", "Strategy", "Research"],
     roles: [
@@ -142,7 +146,8 @@ export const portfolioData: PortfolioData = {
     shortDescription:
     "Comprehensive 43-point QA audit of LingsCars.com covering accessibility, usability, and performance.",
     description:
-    "Conducted a comprehensive quality assurance audit of LingsCars.com, identifying graphic inconsistencies, ineffective colour choices, and poor font presentation. Delivered a detailed 43-point audit report that assessed accessibility, mobile responsiveness, design consistency, usability, performance, SEO, and content clarity.",
+    "Conducted a comprehensive quality assurance audit of LingsCars.com, identifying graphic inconsistencies, ineffective colour choices, and poor font presentation. " +
+        "Delivered a detailed 43-point audit report that assessed accessibility, mobile responsiveness, design consistency, usability, performance, SEO, and content clarity.",
     categories: [
     "QA Testing",
     "Client-friendly Writing",
@@ -166,7 +171,8 @@ export const portfolioData: PortfolioData = {
     shortDescription:
     "Fully structured international itinerary for a Fortune 500 CEO across six countries.",
     description:
-    "Designed a fully structured international travel itinerary for a Russian Fortune 500 CEO covering Russia, China, North Korea, Israel, Venezuela, St. Helena, and Cuba for November–December 2025. Planned a seamless, stress-free multi-country journey with optimized routes, coordinated logistics, and well-scheduled transitions across all destinations to ensure efficiency, safety, and smooth connectivity throughout the trip.",
+    "Designed a fully structured international travel itinerary for a Fortune 500 CEO covering London,  Dubai, Singapore, Berlin, Nairobi, Sao Paulo, Granda, Chiang Rai, Pokhra for June 1, 2026 to July 2, 2026 (32 days) \n" +
+        "Planned a seamless, stress-free multi-country journey with optimized routes, coordinated logistics, and well-scheduled transitions across all destinations to ensure efficiency, safety, and smooth connectivity throughout the trip.\n",
     categories: [
     "Critical Thinking",
     "Deep Research",
@@ -200,7 +206,8 @@ export const portfolioData: PortfolioData = {
     shortDescription:
     "Built and maintained an organised team Google Drive with zero missed files.",
     description:
-    "Built and maintained a well-organised general team Google Drive folder that contains all documents created and used by the team. Resulted in no missed files and a reliable single source of truth for the whole team.",
+    "Built and maintained a well-organised general team Google Drive folder that contains all documents created and used by the team. Resulted in no missed files and a reliable single" +
+        " source of truth for the whole team.",
     categories: ["Structure Design", "Permission Management", "Maintenance"],
     tags: ["Organization", "Systems", "Admin"],
     roles: ["Structure Design", "Permission Management", "Maintenance"],
@@ -220,7 +227,8 @@ export const portfolioData: PortfolioData = {
     shortDescription:
     "Investor-ready pitch deck for a Nigerian meal delivery concept for students and professionals.",
     description:
-    "Chowtime is a food business plan created to solve the food problem students, corps members, and professionals face. The goal is to make fresh, affordable, and consistently delicious Nigerian meals accessible to every student, corper, and busy professional — delivered directly to their door so that food is never a problem, regardless of budget or schedule. The investor-ready pitch deck covered the full product development process: research, structure, user pain points, product solution, user experience, and competitive analysis.",
+    "Chowtime is a food business plan created to solve the food problem students, corps members, and professionals face. The goal is to make fresh, affordable, and consistently " +
+        "delicious Nigerian meals accessible to every student, corper, and busy professional — delivered directly to their door so that food is never a problem, regardless of budget or schedule. The investor-ready pitch deck covered the full product development process: research, structure, user pain points, product solution, user experience, and competitive analysis.",
     categories: ["Pitch Deck", "Product Development", "Competitive Analysis"],
     tags: ["Presentation", "Strategy", "Research"],
     roles: [
@@ -244,7 +252,9 @@ export const portfolioData: PortfolioData = {
     shortDescription:
     "Multi-stage onboarding email sequence built on customer psychology to boost activation.",
     description:
-    "Analyzed the onboarding journey to identify potential psychological, communication, and trust barriers affecting onboarding completion. Designed and developed an advanced, multi-stage email onboarding sequence tailored to user behavior and engagement patterns, applying customer psychology principles including trust-building, objection handling, personalization, and behavioral triggers to improve user activation.",
+    "Analyzed the onboarding journey to identify potential psychological, communication, and trust barriers affecting onboarding completion. Designed and developed an advanced, multi-stage " +
+        "email onboarding sequence tailored to user behavior and engagement patterns, applying customer psychology principles including trust-building, objection handling, personalization, " +
+        "and behavioral triggers to improve user activation.",
     categories: ["Email Marketing", "Customer Psychology", "Onboarding"],
     tags: ["Marketing", "Strategy", "Automation"],
     roles: [
@@ -264,35 +274,87 @@ export const portfolioData: PortfolioData = {
     projectUrl: "",
     notionUrl: ""
   },
-  {
-    id: "proj-ai-automation",
-    title: "AI Automation Workflows",
-    shortDescription:
-    "AI-powered customer communication and booking automations using ManyChat and Zapier.",
-    description:
-    "Designed and implemented AI-powered customer communication workflows using ManyChat and Zapier to automate customer interactions. Built an Instagram Comment-to-DM automation that instantly engaged leads, an automated client booking system connecting Google Forms, confirmation emails, and Google Sheets, and produced comprehensive SOPs and walkthrough videos to support system adoption and maintenance.",
-    categories: ["AI Automation", "Workflow Design", "Documentation"],
-    tags: ["Automation", "Systems", "Documentation"],
-    roles: [
-    "Designed AI-powered customer communication workflows",
-    "Built Instagram Comment-to-DM automation",
-    "Developed automated client booking system",
-    "Structured clean, scalable databases",
-    "Conducted end-to-end testing and troubleshooting",
-    "Produced SOPs, documentation, and walkthrough videos"],
+    {
+      id: "proj-ai-automation",
+      title: "AI Automation Workflows",
+      shortDescription:
+          "AI-powered customer communication and booking automations using ManyChat and Zapier.",
+      description:
+          "Designed and implemented AI-powered customer communication workflows using ManyChat and Zapier to automate customer interactions. Built an Instagram Comment-to-DM automation that " +
+          "instantly engaged leads, an automated client booking system connecting Google Forms, confirmation emails, and Google Sheets, and produced comprehensive SOPs and walkthrough videos to " +
+          "support system adoption and maintenance.",
+      categories: ["AI Automation", "Workflow Design", "Documentation"],
+      tags: ["Automation", "Systems", "Documentation"],
+      roles: [
+        "Designed AI-powered customer communication workflows",
+        "Built Instagram Comment-to-DM automation",
+        "Developed automated client booking system",
+        "Structured clean, scalable databases",
+        "Conducted end-to-end testing and troubleshooting",
+        "Produced SOPs, documentation, and walkthrough videos"],
 
-    results: [
-    "Reduced manual customer support by automating FAQ responses.",
-    "Increased operational efficiency by automating booking confirmations and client data management.",
-    "Eliminated missed client enquiries through automated communication workflows.",
-    "Improved data accuracy and delivered scalable automation systems."],
+      results: [
+        "Reduced manual customer support by automating FAQ responses.",
+        "Increased operational efficiency by automating booking confirmations and client data management.",
+        "Eliminated missed client enquiries through automated communication workflows.",
+        "Improved data accuracy and delivered scalable automation systems."],
 
-    technologies: ["ManyChat", "Zapier", "Google Forms", "Google Sheets"],
-    images: ["/praise/ai_automation/1.png", "/praise/ai_automation/2.png", "/praise/ai_automation/3.png"],
-    featuredImage: "",
-    projectUrl: "",
-    notionUrl: ""
-  }],
+      technologies: ["ManyChat", "Zapier", "Google Forms", "Google Sheets"],
+      images: ["/praise/ai_automation/1.png", "/praise/ai_automation/2.png", "/praise/ai_automation/3.png"],
+      featuredImage: "",
+      projectUrl: "",
+      notionUrl: ""
+    },
+    {
+      id: "proj-lead-management-system",
+      title: "Lead Management System",
+      shortDescription:
+          "A branded Airtable-based CRM and lead management system with automated workflows for lead tracking, qualification, and follow-up.",
+      description:
+          "Designed and implemented a lead management system using Airtable to centralise business leads from multiple acquisition channels. The solution featured a structured sales pipeline, " +
+          "automated follow-up reminders, lead qualification, custom dashboards, and workflow automation to improve sales operations, visibility, and team collaboration.",
+      categories: [
+        "CRM",
+        "Sales Automation",
+        "Workflow Automation"
+      ],
+      tags: [
+        "Lead Management",
+        "CRM",
+        "Airtable",
+        "Automation",
+        "Sales Pipeline",
+        "Lead Qualification",
+        "Dashboard",
+        "Business Operations"
+      ],
+      roles: [
+        "Designed and implemented a branded Airtable CRM system to centralise and manage leads from multiple acquisition channels.",
+        "Built a structured sales pipeline with clearly defined lead stages, qualification criteria, and follow-up processes.",
+        "Configured Airtable Automations to streamline lead tracking, automate follow-up reminders, and improve response times.",
+        "Created custom Airtable views, filters, and dashboards to provide real-time visibility into lead status and sales activity.",
+        "Organised and maintained accurate CRM records for over 15 business leads, ensuring data consistency and accessibility.",
+        "Improved sales operations by introducing lead ownership, priority indicators, and structured follow-up tracking.",
+        "Documented and presented the lead management workflow through a professional Loom walkthrough to guide new team members."
+      ],
+      results: [
+        "Built a fully operational Airtable CRM and lead management system capable of supporting real-world business operations.",
+        "Automated key stages of the lead management process, reducing manual follow-up effort and improving workflow efficiency.",
+        "Established a centralised lead database that improved visibility, accountability, and collaboration across the sales process.",
+        "Implemented lead qualification and priority tracking, enabling faster identification of high-value opportunities.",
+        "Reduced the risk of missed or duplicated follow-ups by creating automated reminders and a standardised lead progression workflow."
+      ],
+      technologies: [
+        "Airtable",
+        "Airtable Automations",
+        "Loom"
+      ],
+      images: ["/praise/lead_manage/1.png", "/praise/lead_manage/2.png", "/praise/lead_manage/3.png", "/praise/lead_manage/4.png"],
+      featuredImage: "",
+      projectUrl: "https://airtable.com/appNBjbNM65jliEhA/shrow645hvbFkMoEc",
+      notionUrl: ""
+    }
+  ],
 
 
   tools: [
@@ -309,7 +371,9 @@ export const portfolioData: PortfolioData = {
     "Monday.com",
     "Todoist",
     "ClickUp",
-    "Buffer"]
+    "Buffer",
+    "AI",
+    "Klaviyo"]
 
   },
   {
@@ -344,26 +408,50 @@ export const portfolioData: PortfolioData = {
     id: "testimonial-1",
     quote:
     "Praise brought structure to our chaos. Nothing fell through the cracks and our documentation has never been cleaner.",
-    name: "Pauline",
-    position: "HR",
+    name: "Anu",
+    position: "Team Lead",
     company: "Plus Tenders"
   },
   {
     id: "testimonial-2",
     quote:
     "Reliable, proactive, and detail-obsessed. The systems she set up saved our team hours every single week.",
-    name: "Naza",
-    position: "Chief Mentor",
-    company: "HNG"
+    name: "Oluwaseun",
+    position: "Assistant Team Lead",
+    company: "Plus Tenders"
   },
   {
     id: "testimonial-3",
     quote:
     "From research to follow-ups, everything was handled with care and professionalism. A true right-hand support.",
-    name: "Prince Obinna",
-    position: "",
-    company: ""
+    name: "Wisdom",
+    position: "Founder",
+    company: "Midas Marketing"
   }],
+
+  certifications: [
+    {
+      id: "cert-alx-va",
+      name: "Virtual Assistant Certificate",
+      issuer: "ALX",
+      date: "September 2024",
+      images: "/praise/cert/1.jpg"
+    },
+    {
+      id: "cert-vaa-customer-service",
+      name: "Virtual Assistant & Customer Service",
+      issuer: "VAA Global",
+      date: "January 2025",
+      images: "/praise/cert/2.png"
+    },
+    {
+      id: "cert-tech-up-girls-digital-skills",
+      name: "Basic Digital Skills",
+      issuer: "Tech-up Girls Bootcamp",
+      date: "",
+      images: "/praise/cert/3.png"
+    }
+  ],
 
 
   faqs: [
@@ -415,6 +503,7 @@ export const portfolioData: PortfolioData = {
   { id: "education", label: "Education" },
   { id: "projects", label: "Projects" },
   { id: "tools", label: "Tools" },
+  { id: "certifications", label: "Certifications" },
   { id: "testimonials", label: "Testimonials" },
   { id: "faq", label: "FAQ" }]
 
